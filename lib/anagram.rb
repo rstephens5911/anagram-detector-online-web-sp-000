@@ -10,5 +10,7 @@ class Anagram
       if element.split.include?(@word.split)
         element
       end
+    end
   end
+
 end
