@@ -6,8 +6,9 @@ class Anagram
   end
 
   def match(array)
+    word_array = @word.split
     array.each do |element|
-      if element.split.include?(@word.split)
+      if element.split.include?(word_array)
         element
       end
     end
