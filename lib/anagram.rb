@@ -9,7 +9,7 @@ class Anagram
     anagrams = []
     list.each do |element|
       if element.split("").sort == @word.split("").sort
-        array << element
+        anagrams << element
       end
     end
     anagrams
