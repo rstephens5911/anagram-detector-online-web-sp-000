@@ -9,7 +9,7 @@ class Anagram
     word_array = []
     word_array << @word.split
     word_array.sort
-    
+
     array.each do |element|
       element_array = []
       element_array << element.split
